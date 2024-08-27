@@ -44,20 +44,20 @@ Se utilizará el siguiente nomenclatura para el nombrado:
 
 # LISTADO ITEMS DE CONFIGURACION
 
-| **Nombre**                           | **Regla Nombrado**                           | **Extensión**   | **Ubicación**                            |
-|--------------------------------------|----------------------------------------------|----------------|-------------------------------------------|
-| **Libro**                            | Libro_<<NombreLibro>>.<<extensión>>          | pdf, docx      | Bibliografía/                             |
-| **Presentación**                     | PPT_<<NombrePresentación>>.<<extensión>>     | pdf, pptx      | Clases/ClaseX/Presentaciones              |
-| **Toma de Nota**                     | TN_<<NombreEstudiante>>.<<extensión>>        | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
-| **Modalidad**                        | Modalidad_<<yyyy>>.<<extensión>>             | pdf            | Modalidad/                                |
-| **Trabajo Práctico**                 | TPX_<<Nombre>>.<<extensión>>                 | pdf            | TrabajosPracticos/TPX                     |
-| **Guía de Trabajos Prácticos**       | TP_EnunciadosTPs.<<extensión>>               | pdf            | TrabajosPracticos/                        |
-| **Resumen**                          | Resumen-X_<<NombreEstudiante>>.<<extensión>> | pdf            | Parciales/ParcialX/Resúmenes              |
-| **Ejercicio**                        | Ejercicio-X_<<NombreEstudiante>>.<<extensión>>| pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
-| **Trabajo de Investigación**         | TIX_<<Nombre>>.<<extensión>>                 | pdf            | TrabajosDeInvestigacion/TIX               |
-| **Guía de Trabajos de Investigación**| TI_EnunciadosTIs.<<extensión>>               | pdf            | TrabajosDeInvestigacion/                  |
-| **Guía de Trabajos Resueltos**       | Parciales_GuiaEjercicios.<<extensión>>       | pdf            | Parciales/                        |
-| **Template**                         | Template_<<Nombre>>.<<extensión>>            | pdf            | Templates/                                |
+| **Nombre**                           | **Regla Nombrado**                               | **Extensión**   | **Ubicación**                            |
+|--------------------------------------|-------------------------------------------------|----------------|-------------------------------------------|
+| **Libro**                            | `Libro_<NombreLibro>.<extensión>`               | pdf, docx      | Bibliografía/                             |
+| **Presentación**                     | `PPT_<NombrePresentación>.<extensión>`          | pdf, pptx      | Clases/ClaseX/Presentaciones              |
+| **Toma de Nota**                     | `TN_<NombreEstudiante>.<extensión>`             | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
+| **Modalidad**                        | `Modalidad_<yyyy>.<extensión>`                  | pdf            | Modalidad/                                |
+| **Trabajo Práctico**                 | `TPX_<Nombre>.<extensión>`                      | pdf            | TrabajosPracticos/TPX                     |
+| **Enunciados Trabajos Prácticos**       | `TP_EnunciadosTPs.<extensión>`               | pdf            | TrabajosPracticos/                        |
+| **Resumen**                          | `Resumen-X_<NombreEstudiante>.<extensión>`      | pdf            | Parciales/ParcialX/Resúmenes              |
+| **Ejercicio**                        | `Ejercicio-X_<NombreEstudiante>.<extensión>`    | pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
+| **Trabajo de Investigación**         | `TIX_<Nombre>.<extensión>`                      | pdf            | TrabajosDeInvestigacion/TIX               |
+| **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<extensión>`               | pdf            | TrabajosDeInvestigacion/                  |
+| **Enunciados Ejercicios**               | `Parciales_GuiaEjercicios.<extensión>`       | pdf            | Parciales/                                |
+| **Template**                         | `Template_<Nombre>.<extensión>`                 | pdf,docx, xslx | Templates/                                |
 
 <br>
 
