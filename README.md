@@ -37,7 +37,7 @@ Se utilizará el siguiente nomenclatura para el nombrado:
 - **Extensión**:  
   Es la extensión del ítem de configuración, por ejemplo: `pdf`, `docx`, etc.
 
-**Ejemplo:**  
+**Ejemplo de Nomenclatura:**  
 `Modalidad_2024.pdf`
 
 <br>
@@ -56,7 +56,7 @@ Se utilizará el siguiente nomenclatura para el nombrado:
 | **Ejercicio**                        | Ejercicio-X_<<NombreEstudiante>>.<<extensión>>| pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
 | **Trabajo de Investigación**         | TIX_<<Nombre>>.<<extensión>>                 | pdf            | TrabajosDeInvestigacion/TIX               |
 | **Guía de Trabajos de Investigación**| TI_EnunciadosTIs.<<extensión>>               | pdf            | TrabajosDeInvestigacion/                  |
-| **Guía de Trabajos Resueltos**       | Parciales_GuiaEjercicios.<<extensión>>       | pdf            | TrabajosResueltos/                        |
+| **Guía de Trabajos Resueltos**       | Parciales_GuiaEjercicios.<<extensión>>       | pdf            | Parciales/                        |
 | **Template**                         | Template_<<Nombre>>.<<extensión>>            | pdf            | Templates/                                |
 
 <br>
