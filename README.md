@@ -23,22 +23,22 @@
 
 Se utilizará el siguiente nomenclatura para el nombrado:
 
-`<NombreProducto>_<Nombre>.<Extensión>`
+`<NombreProducto>_<NombreArchivo>.<Extensión>`
 
 **Donde:**
 
 - **NombreProducto**:  
-  Se refiere al nombre del producto, es decir, hace referencia al tipo de contenido que almacenará cada carpeta, por ejemplo: `ClaseX`, `Modalidad`, `TrabajoPractico`, `Resumen`, `TomaDeNota`.
+  Se refiere al nombre del producto, es decir, hace referencia al tipo de contenido que almacenará cada carpeta, por ejemplo: `PPT`, `Modalidad`, `TP`, `Resumen`, `TN`, etc.
 
 
-- **NombreItemDeConfiguración**:  
-  Es el nombre que se le asigna al ítem de configuración, por ejemplo: `TrabajoPractico1_DocumentoFinal.pdf`, `Presentacion_UserStories.pdf`, etc.
+- **NombreArchivo**:  
+  Es el nombre que se le asigna al ítem de configuración, por ejemplo: `TP1_DocumentoFinal.pdf`, `PPT_SCM.pdf`, etc.
 
 - **Extensión**:  
   Es la extensión del ítem de configuración, por ejemplo: `pdf`, `docx`, etc.
 
 **Ejemplo:**  
-`Clase-16-08_Presentacion.pdf`
+`Modalidad_2024.pdf`
 
 <br>
 
@@ -46,32 +46,32 @@ Se utilizará el siguiente nomenclatura para el nombrado:
 
 | **Nombre**                           | **Regla Nombrado**                           | **Extensión**   | **Ubicación**                            |
 |--------------------------------------|----------------------------------------------|----------------|-------------------------------------------|
-| **Libro**                            | Libro_<<nombreLibro>>.<<extensión>>          | pdf            | Bibliografía/                             |
-| **Presentación**                     | PPT_<<nombrePresentación>>.<<extensión>>     | pdf, pptx      | Clases/ClaseX/Presentaciones              |
-| **Toma de Nota**                     | TN_<<nombreEstudiante>>.<<extensión>>        | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
+| **Libro**                            | Libro_<<NombreLibro>>.<<extensión>>          | pdf, docx      | Bibliografía/                             |
+| **Presentación**                     | PPT_<<NombrePresentación>>.<<extensión>>     | pdf, pptx      | Clases/ClaseX/Presentaciones              |
+| **Toma de Nota**                     | TN_<<NombreEstudiante>>.<<extensión>>        | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
 | **Modalidad**                        | Modalidad_<<yyyy>>.<<extensión>>             | pdf            | Modalidad/                                |
-| **Trabajo Práctico**                 | TPX_<<nombre>>.<<extensión>>                 | pdf            | TrabajosPracticos/TPX                     |
-| **Guía de Trabajos Prácticos**       | TP_Guia.<<extensión>>                        | pdf            | TrabajosPracticos/                        |
-| **Resumen**                          | Resumen-X_<<nombreEstudiante>>.<<extensión>> | pdf            | Parciales/ParcialX/Resúmenes              |
-| **Ejercicio**                        | Ejercicio-X_<<nombreEstudiante>>.<<extensión>>| pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
-| **Trabajo de Investigación**         | TIX_<<nombre>>.<<extensión>>                 | pdf            | TrabajosDeInvestigacion/TIX               |
-| **Guía de Trabajos de Investigación**| TI_Guia.<<extensión>>                        | pdf            | TrabajosDeInvestigacion/                  |
-| **Guía de Trabajos Resueltos**       | Ejercicios_Guia.<<extensión>>                | pdf            | TrabajosResueltos/                        |
+| **Trabajo Práctico**                 | TPX_<<Nombre>>.<<extensión>>                 | pdf            | TrabajosPracticos/TPX                     |
+| **Guía de Trabajos Prácticos**       | TP_EnunciadosTPs.<<extensión>>               | pdf            | TrabajosPracticos/                        |
+| **Resumen**                          | Resumen-X_<<NombreEstudiante>>.<<extensión>> | pdf            | Parciales/ParcialX/Resúmenes              |
+| **Ejercicio**                        | Ejercicio-X_<<NombreEstudiante>>.<<extensión>>| pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
+| **Trabajo de Investigación**         | TIX_<<Nombre>>.<<extensión>>                 | pdf            | TrabajosDeInvestigacion/TIX               |
+| **Guía de Trabajos de Investigación**| TI_EnunciadosTIs.<<extensión>>               | pdf            | TrabajosDeInvestigacion/                  |
+| **Guía de Trabajos Resueltos**       | Parciales_GuiaEjercicios.<<extensión>>       | pdf            | TrabajosResueltos/                        |
 | **Template**                         | Template_<<Nombre>>.<<extensión>>            | pdf            | Templates/                                |
 
 <br>
 
 # GLOSARIO
 
-- PPT: Presentacion.
+- PPT: Presentación.
 - TN: Toma de Notas.
 - yyyy: Año de Cursada.
-- TP: Trabajo Práctico.
-- TPX: Trabajo Práctico. X hace alusión al número del Trabajo Práctico.
-- TI: Trabajo de Investigación.
-- TIX: Trabajo de Investigación. X hace alusión al número del Trabajo de Investigación.
-- Resumen-X: X hace alusión al título de lo que se está resumiendo.
-- Ejercicio-X: X hace alusión al título del Ejercicio resuelto.
+- TP: Trabajos Prácticos, se usa para aclarar el nombre del producto del archivo de enunciados de trabajos prácticos.
+- TPX: Trabajo Práctico. X hace alusión al número del Trabajo Práctico
+- TI: Trabajos de Investigación.
+- TIX: Trabajo de Investigación. X hace alusión al número del Trabajo de Investigación
+- Resumen-X: X hace alusión al título de lo que se está resumiendo
+- Ejercicio-X: X hace alusión al título del Ejercicio resuelto
 
 # Linea Base
 
