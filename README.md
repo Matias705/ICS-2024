@@ -30,7 +30,7 @@ Se utilizará el siguiente nomenclatura para el nombrado:
 - **NombreDeArchivo**: Es el nombre que se le asigna al ítem de configuración, por ejemplo "TP1_DocumentoFinal.pdf", “PPT_SCM.pdf”, etc.
 - **Extensión**: Es la extensión del ítem de configuración, por ejemplo pdf, docx, etc.
 
-Ejemplo de la nomenclatura: `Libro_AgileEstimatingAndPlanning.pdf`
+Ejemplo de la nomenclatura: `PPT_SeVieneReputationTV.pdf`
 
 <br>
 
