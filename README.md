@@ -40,7 +40,7 @@ Ejemplo de la nomenclatura: `Libro_AgileEstimatingAndPlanning.pdf`
 |--------------------------------------|-------------------------------------------------|----------------|-------------------------------------------|
 | **Libro**                            | `Libro_<<NombreDelLibro>>.<<extensión>>`          | pdf, docx      | `Bibliografía/`                           |
 | **Presentación**                     | `PPT_<<NombreDePresentación>>.<<extensión>>`      | pdf, pptx      | `Clases/ClaseX<<Tema>>/Presentaciones/`   |
-| **Toma de Nota**                     | `TN_<<NombreDelEstudiante>>.<<extensión>>         | pdf, jpeg      | `Clases/ClaseX<<Tema>>/TomaDeNotas/`      |
+| **Toma de Nota**                     | `TN_<<NombreDelEstudiante>>.<<extensión>>`         | pdf, jpeg      | `Clases/ClaseX<<Tema>>/TomaDeNotas/`      |
 | **Modalidad**                        | `Modalidad_<<yyyy>>.<<extensión>>`                | pdf            | `Modalidad/`                              |
 | **Enunciados Ejercicios**            | `Parciales_GuiaEjercicios.<<extensión>`           | pdf            | `Parciales/`                              |
 | **Resúmen**                          | `Resúmen-X_<<NombreDelEstudiante>>.<<extensión>>` | pdf, docx      | `Parciales/ParcialX/Resúmenes/`           |
@@ -62,8 +62,8 @@ Ejemplo de la nomenclatura: `Libro_AgileEstimatingAndPlanning.pdf`
 3. **`Clase_X_<<Tema>>`**: Es la carpeta de una clase en especifico, donde la “X” hace alusión a la fecha y se escribirá el día y el mes separados por un guión normal; luego seguirá el tema de la clase, por ejemplo Clase_13-08_Introducción a Ing de Software.  Esta carpeta almacena dos carpetas, **`TomasDeNotas`** donde estarán las tomas de notas de los estudiantes y **`Presentaciones`** con las presentaciones usadas en la clase.
 4. **`Modalidad`**: Aquí se almacenará la modalidad y planificación académica en la cual se basará la cátedra a lo largo del año/cuatrimestre.
 5. **`Parciales`**: Almacena un archivo con los enunciados de los ejercicios para practicar y una carpeta por cada parte.
-6. **`ParcialX`**: es la carpeta con los contenidos que van a un parcial en específico, la “X” hace alusión al número del parcial. Esta contendrá dos carpetas, **`Resúmenes`** donde cada estudiante almacenará sus resúmenes y **Ejercicios** donde subirán las soluciones a ejercicios.
-7. **``Templates`**: Contendrá las templates propuestas por la cátedra para usar en los parciales.
+6. **`ParcialX`**: es la carpeta con los contenidos que van a un parcial en específico, la “X” hace alusión al número del parcial. Esta contendrá dos carpetas, **`Resúmenes`** donde cada estudiante almacenará sus resúmenes y **`Ejercicios`** donde subirán las soluciones a ejercicios.
+7. **`Templates`**: Contendrá las templates propuestas por la cátedra para usar en los parciales.
 8. **`TrabajosDeInvestigación`**: Contendrá una carpeta por cada trabajo de investigación realizado y un archivo con los correspondientes enunciados.
 9. **`TIX`**: Es la carpeta de un trabajo de investigación en específico, y almacenará todos los archivos del correspondiente trabajo.
 10. **`TrabajosPrácticos`**: Contendrá una carpeta por cada trabajo práctico realizado y un archivo con los correspondientes enunciados.
