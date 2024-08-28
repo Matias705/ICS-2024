@@ -2,19 +2,21 @@
 ```
 ├── Bibliografía 
 ├── Clases 
-    ├── ClaseX-(Tema) 
+    ├── Clase_X_<<Tema>> 
         ├── Presentaciones 
         ├── TomaDeNotas 
-├── Modalidad 
-├── TrabajosDeInvestigacion
+├── Modalidad
+├── Parciales
+    ├── ParcialX
+        ├── Resúmenes
+        ├── Ejercicios
+├── Templates
+├── TrabajosDeInvestigación
     ├── TIX
 ├── TrabajosPrácticos 
     ├── TPX 
-├── Parciales
-    ├── ParcialX
-        ├── Resumenes
-        ├── Ejercicios
-├── Templates
+
+En el glosario se aclara que contendrá cada carpeta, y sus nomenclaturas.
 
 ```
 
@@ -22,59 +24,69 @@
 # REGLAS DE NOMBRADO
 
 Se utilizará el siguiente nomenclatura para el nombrado:
+`<<NombreDeProducto>>_<<NombreDeArchivo>>.<<Extensión>>`
 
-`<NombreProducto>_<NombreArchivo>.<Extensión>`
+- **NombreDeProducto**: Hace referencia al tipo de contenido que almacenará cada carpeta, por ejemplo PPT, Modalidad, TP, Resumen, TN, etc.
+- **NombreDeArchivo**: Es el nombre que se le asigna al ítem de configuración, por ejemplo "TP1_DocumentoFinal.pdf", “PPT_SCM.pdf”, etc.
+- **Extensión**: Es la extensión del ítem de configuración, por ejemplo pdf, docx, etc.
 
-**Donde:**
-
-- **NombreProducto**:  
-  Se refiere al nombre del producto, es decir, hace referencia al tipo de contenido que almacenará cada carpeta, por ejemplo: `PPT`, `Modalidad`, `TP`, `Resumen`, `TN`, etc.
-
-
-- **NombreArchivo**:  
-  Es el nombre que se le asigna al ítem de configuración, por ejemplo: `TP1_DocumentoFinal.pdf`, `PPT_SCM.pdf`, etc.
-
-- **Extensión**:  
-  Es la extensión del ítem de configuración, por ejemplo: `pdf`, `docx`, etc.
-
-**Ejemplo de Nomenclatura:**  
-`Modalidad_2024.pdf`
+Ejemplo de la nomenclatura: `Libro_AgileEstimatingAndPlanning.pdf`
 
 <br>
 
 # LISTADO ITEMS DE CONFIGURACION
 
-| **Nombre**                           | **Regla Nombrado**                               | **Extensión**   | **Ubicación**                            |
+ **Nombre**                           | **Regla Nombrado**                               | **Extensión**   | **Ubicación**                            |
 |--------------------------------------|-------------------------------------------------|----------------|-------------------------------------------|
-| **Libro**                            | `Libro_<NombreLibro>.<extensión>`               | pdf, docx      | Bibliografía/                             |
-| **Presentación**                     | `PPT_<NombrePresentación>.<extensión>`          | pdf, pptx      | Clases/ClaseX/Presentaciones              |
-| **Toma de Nota**                     | `TN_<NombreEstudiante>.<extensión>`             | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
-| **Modalidad**                        | `Modalidad_<yyyy>.<extensión>`                  | pdf            | Modalidad/                                |
-| **Trabajo Práctico**                 | `TPX_<Nombre>.<extensión>`                      | pdf            | TrabajosPracticos/TPX                     |
-| **Enunciados Trabajos Prácticos**       | `TP_EnunciadosTPs.<extensión>`               | pdf            | TrabajosPracticos/                        |
-| **Resumen**                          | `Resumen-X_<NombreEstudiante>.<extensión>`      | pdf            | Parciales/ParcialX/Resúmenes              |
-| **Ejercicio**                        | `Ejercicio-X_<NombreEstudiante>.<extensión>`    | pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
-| **Trabajo de Investigación**         | `TIX_<Nombre>.<extensión>`                      | pdf            | TrabajosDeInvestigacion/TIX               |
-| **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<extensión>`               | pdf            | TrabajosDeInvestigacion/                  |
-| **Enunciados Ejercicios**               | `Parciales_GuiaEjercicios.<extensión>`       | pdf            | Parciales/                                |
-| **Template**                         | `Template_<Nombre>.<extensión>`                 | pdf,docx, xslx | Templates/                                |
+| **Libro**                            | `Libro_<<NombreLibro>>.<<extensión>>`               | pdf, docx      | Bibliografía/                             |
+| **Presentación**                     | `PPT_<<NombrePresentación>>.<<extensión>>`          | pdf, pptx      | Clases/ClaseX/Presentaciones              |
+| **Toma de Nota**                     | `TN_<<NombreEstudiante>>.<<extensión>>`             | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
+| **Modalidad**                        | `Modalidad_<<yyyy>>.<<extensión>>`                  | pdf            | Modalidad/                                |
+| **Trabajo Práctico**                 | `TPX_<<Nombre>>.<<extensión>>`                      | pdf            | TrabajosPracticos/TPX                     |
+| **Enunciados Trabajos Prácticos**       | `TP_EnunciadosTPs.<<extensión>>`               | pdf            | TrabajosPracticos/                        |
+| **Resumen**                          | `Resumen-X_<<NombreEstudiante>>.<<extensión>>`      | pdf            | Parciales/ParcialX/Resúmenes              |
+| **Ejercicio**                        | `Ejercicio-X_<<NombreEstudiante>>.<<extensión>>`    | pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
+| **Trabajo de Investigación**         | `TIX_<<Nombre>>.<<extensión>>`                      | pdf            | TrabajosDeInvestigacion/TIX               |
+| **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<<extensión>>`               | pdf            | TrabajosDeInvestigacion/                  |
+| **Enunciados Ejercicios**               | `Parciales_GuiaEjercicios.<<extensión>>`       | pdf            | Parciales/                                |
+| **Template**                         | `Template_<<Nombre>>.<<extensión>>`                 | pdf,docx, xslx | Templates/            
 
 <br>
 
 # GLOSARIO
 
-- PPT: Presentación.
-- TN: Toma de Notas.
-- yyyy: Año de Cursada.
-- TP: Trabajos Prácticos, se usa para aclarar el nombre del producto del archivo de enunciados de trabajos prácticos.
-- TPX: Trabajo Práctico. X hace alusión al número del Trabajo Práctico
-- TI: Trabajos de Investigación.
-- TIX: Trabajo de Investigación. X hace alusión al número del Trabajo de Investigación
-- Resumen-X: X hace alusión al título de lo que se está resumiendo
-- Ejercicio-X: X hace alusión al título del Ejercicio resuelto
+### Diseño de Repositorio:
+
+1. **Bibliografía**: Se almacenará el material bibliográfico propuesto por la cátedra.
+2. **Clases**: Almacenará una carpeta por cada clase que se da.
+  a. **Clase_X_<<Tema>>**: Es la carpeta de una clase en específico, donde la “X” hace alusión a la fecha y se escribirá el día y el mes separados por un guión normal; luego seguirá el tema de la clase. Por ejemplo, Clase_13-08_Introducción a Ing de Software. Esta carpeta almacena dos subcarpetas:
+    i. **TomaDeNotas**: Donde estarán las tomas de notas de los estudiantes.
+    ii. **Presentaciones**: Con las presentaciones usadas en la clase.
+4. **Modalidad**: Aquí se almacenará la modalidad y planificación académica en la cual se basará la cátedra a lo largo del año/cuatrimestre.
+5. **Parciales**: Almacena un archivo con los enunciados de los ejercicios para practicar y una carpeta por cada parte.
+  a. **ParcialX**: Es la carpeta con los contenidos que van a un parcial en específico. La “X” hace alusión al número del parcial. Esta contendrá dos carpetas:
+    i. **Resúmenes**: Donde cada estudiante almacenará sus resúmenes.
+    ii. **Ejercicios**: Donde subirán las soluciones a ejercicios.
+6. **Templates**: Contendrá las templates propuestas por la cátedra para usar en los parciales.
+7. **TrabajosDeInvestigacion**: Contendrá una carpeta por cada trabajo de investigación realizado y un archivo con los correspondientes enunciados.
+  a. **TIX**: Es la carpeta de un trabajo de investigación en específico, y almacenará todos los archivos del correspondiente trabajo.
+8. **TrabajosPracticos**: Contendrá una carpeta por cada trabajo práctico realizado y un archivo con los correspondientes enunciados.
+  a. **TPX**: Es la carpeta de un trabajo práctico en específico, y almacenará todos los archivos del correspondiente trabajo.
+
+### Listado de Ítems de Configuración:
+
+1. **PPT**: Presentación.
+2. **TN**: Toma de Notas.
+3. **yyyy**: Año de Cursada.
+4. **Resúmen-X**: X hace alusión al tema que se está resumiendo.
+5. **Ejercicio-X**: X hace alusión al título del Ejercicio resuelto.
+6. **TI**: Trabajos de Investigación. Se usa para el nombre del producto, del archivo de enunciados de trabajos de investigación.
+7. **TIX**: Trabajo de Investigación. X hace alusión al número del Trabajo de Investigación.
+8. **TP**: Trabajos Prácticos. Se usa para el nombre del producto, del archivo de enunciados de trabajos prácticos.
+9. **TPX**: Trabajo Práctico. X hace alusión al número del Trabajo Práctico.
+
 
 # Linea Base
 
-Se establecerá una línea luego de cada TP entregado, la cual se encontrará en la rama main del repositorio.
-La idea de utilizar un Trabajo Práctico (TP) radica en que este actúa como un 'checkpoint' en el proceso de adquisición de conocimientos en la materia. Permite aplicar los conceptos aprendidos en la parte teórica, convirtiéndose en un buen momento para establecer una línea base del aprendizaje alcanzado.
+La línea base se establecerá tras la entrega de cada Trabajo Práctico, en la rama principal “main” del repositorio. La elección de los Trabajos Prácticos como puntos de referencia se debe a su rol como 'checkpoints' en el proceso de aprendizaje. Estos momentos marcan una oportunidad clave para consolidar los conocimientos adquiridos en la parte teórica y verificar el progreso alcanzado. Al crear una línea base después de cada TP, se asegura un registro claro del avance académico y se facilita la comparación y evaluación del desarrollo a lo largo del curso.
 
