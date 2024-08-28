@@ -38,18 +38,18 @@ Ejemplo de la nomenclatura: `Libro_AgileEstimatingAndPlanning.pdf`
 
  **Nombre**                           | **Regla Nombrado**                               | **Extensión**   | **Ubicación**                            |
 |--------------------------------------|-------------------------------------------------|----------------|-------------------------------------------|
-| **Libro**                            | `Libro_<<NombreLibro>>.<<extensión>>`               | pdf, docx      | Bibliografía/                             |
-| **Presentación**                     | `PPT_<<NombrePresentación>>.<<extensión>>`          | pdf, pptx      | Clases/ClaseX/Presentaciones              |
-| **Toma de Nota**                     | `TN_<<NombreEstudiante>>.<<extensión>>`             | pdf, jpeg      | Clases/ClaseX/TomaDeNotas                 |
-| **Modalidad**                        | `Modalidad_<<yyyy>>.<<extensión>>`                  | pdf            | Modalidad/                                |
-| **Trabajo Práctico**                 | `TPX_<<Nombre>>.<<extensión>>`                      | pdf            | TrabajosPracticos/TPX                     |
-| **Enunciados Trabajos Prácticos**       | `TP_EnunciadosTPs.<<extensión>>`               | pdf            | TrabajosPracticos/                        |
-| **Resumen**                          | `Resumen-X_<<NombreEstudiante>>.<<extensión>>`      | pdf            | Parciales/ParcialX/Resúmenes              |
-| **Ejercicio**                        | `Ejercicio-X_<<NombreEstudiante>>.<<extensión>>`    | pdf, jpeg      | Parciales/ParcialX/Ejercicios             |
-| **Trabajo de Investigación**         | `TIX_<<Nombre>>.<<extensión>>`                      | pdf            | TrabajosDeInvestigacion/TIX               |
-| **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<<extensión>>`               | pdf            | TrabajosDeInvestigacion/                  |
-| **Enunciados Ejercicios**               | `Parciales_GuiaEjercicios.<<extensión>>`       | pdf            | Parciales/                                |
-| **Template**                         | `Template_<<Nombre>>.<<extensión>>`                 | pdf,docx, xslx | Templates/            
+| **Libro**                            | `Libro_<<NombreDelLibro>>.<<extensión>>`          | pdf, docx      | Bibliografía/                           |
+| **Presentación**                     | `PPT_<<NombreDePresentación>>.<<extensión>>`      | pdf, pptx      | Clases/ClaseX<<Tema>>/Presentaciones/   |
+| **Toma de Nota**                     | `TN_<<NombreDelEstudiante>>.<<extensión>>         | pdf, jpeg      | Clases/ClaseX<<Tema>>/TomaDeNotas/      |
+| **Modalidad**                        | `Modalidad_<<yyyy>>.<<extensión>>`                | pdf            | Modalidad/                              |
+| **Enunciados Ejercicios**            | `Parciales_GuiaEjercicios.<<extensión>`           | pdf            | Parciales/                              |
+| **Resúmen**                          | `Resúmen-X_<<NombreDelEstudiante>>.<<extensión>>` | pdf, docx      | Parciales/ParcialX/Resúmenes/           |
+| **Ejercicio Resuelto**               | `Ejercicio-X_<<NombreDelEstudiante>>.<<extensión>>`| pdf, jpeg, docx | Parciales/ParcialX/Ejercicios/         |
+| **Template**                         | `Template_<<NombreTemplate>>.<<extensión>>`       | pdf, docx, xslx | Templates/                              |
+| **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<<extensión>>`               | pdf            | TrabajosDeInvestigación/                |
+| **Trabajo de Investigación**         | `TIX_<<TítuloDelTI>>.<<extensión>>`               | pdf            | TrabajosDeInvestigación/TIX/            |
+| **Enunciados Trabajos Prácticos**    | `TP_EnunciadosTPs.<<extensión>>`                  | pdf            | TrabajosPracticós/                      |
+| **Trabajo Práctico**                 | `TPX_<<TítuloDelTP>>.<<extensión>>`               | pdf            | TrabajosPracticós/TPX                   |
 
 <br>
 
@@ -59,19 +59,15 @@ Ejemplo de la nomenclatura: `Libro_AgileEstimatingAndPlanning.pdf`
 
 1. **Bibliografía**: Se almacenará el material bibliográfico propuesto por la cátedra.
 2. **Clases**: Almacenará una carpeta por cada clase que se da.
-  a. **Clase_X_<<Tema>>**: Es la carpeta de una clase en específico, donde la “X” hace alusión a la fecha y se escribirá el día y el mes separados por un guión normal; luego seguirá el tema de la clase. Por ejemplo, Clase_13-08_Introducción a Ing de Software. Esta carpeta almacena dos subcarpetas:
-    i. **TomaDeNotas**: Donde estarán las tomas de notas de los estudiantes.
-    ii. **Presentaciones**: Con las presentaciones usadas en la clase.
+3. **Clase_X_<<Tema>>**: Es la carpeta de una clase en especifico, donde la “X” hace alusión a la fecha y se escribirá el día y el mes separados por un guión normal; luego seguirá el tema de la clase, por ejemplo Clase_13-08_Introducción a Ing de Software.  Esta carpeta almacena dos carpetas, **TomasDeNotas** donde estarán las tomas de notas de los estudiantes y **Presentaciones** con las presentaciones usadas en la clase.
 4. **Modalidad**: Aquí se almacenará la modalidad y planificación académica en la cual se basará la cátedra a lo largo del año/cuatrimestre.
 5. **Parciales**: Almacena un archivo con los enunciados de los ejercicios para practicar y una carpeta por cada parte.
-  a. **ParcialX**: Es la carpeta con los contenidos que van a un parcial en específico. La “X” hace alusión al número del parcial. Esta contendrá dos carpetas:
-    i. **Resúmenes**: Donde cada estudiante almacenará sus resúmenes.
-    ii. **Ejercicios**: Donde subirán las soluciones a ejercicios.
-6. **Templates**: Contendrá las templates propuestas por la cátedra para usar en los parciales.
-7. **TrabajosDeInvestigacion**: Contendrá una carpeta por cada trabajo de investigación realizado y un archivo con los correspondientes enunciados.
-  a. **TIX**: Es la carpeta de un trabajo de investigación en específico, y almacenará todos los archivos del correspondiente trabajo.
-8. **TrabajosPracticos**: Contendrá una carpeta por cada trabajo práctico realizado y un archivo con los correspondientes enunciados.
-  a. **TPX**: Es la carpeta de un trabajo práctico en específico, y almacenará todos los archivos del correspondiente trabajo.
+6. **ParcialX**: es la carpeta con los contenidos que van a un parcial en específico, la “X” hace alusión al número del parcial. Esta contendrá dos carpetas, **Resúmenes** donde cada estudiante almacenará sus resúmenes y **Ejercicios** donde subirán las soluciones a ejercicios.
+7. **Templates**: Contendrá las templates propuestas por la cátedra para usar en los parciales.
+8. **TrabajosDeInvestigacion**: Contendrá una carpeta por cada trabajo de investigación realizado y un archivo con los correspondientes enunciados.
+9. **TIX**: Es la carpeta de un trabajo de investigación en específico, y almacenará todos los archivos del correspondiente trabajo.
+10. **TrabajosPracticos**: Contendrá una carpeta por cada trabajo práctico realizado y un archivo con los correspondientes enunciados.
+11. **TPX**: Es la carpeta de un trabajo práctico en específico, y almacenará todos los archivos del correspondiente trabajo.
 
 ### Listado de Ítems de Configuración:
 
