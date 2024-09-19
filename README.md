@@ -39,15 +39,15 @@ Ejemplo de la nomenclatura: `PPT_SeVieneReputationTV.pdf`
  **Nombre**                           | **Regla Nombrado**                               | **Extensión**   | **Ubicación**                            |
 |--------------------------------------|-------------------------------------------------|----------------|-------------------------------------------|
 | **Libro**                            | `Libro_<<NombreDelLibro>>.<<extensión>>`          | pdf, docx      | `Bibliografía/`                           |
-| **Presentación**                     | `PPT_<<NombreDePresentación>>.<<extensión>>`      | pdf, pptx, txt      | `Clases/ClaseX<<Tema>>/Presentaciones/`   |
-| **Toma de Nota**                     | `TN_<<NombreDelEstudiante>>.<<extensión>>`         | pdf, jpeg, txt      | `Clases/ClaseX<<Tema>>/TomaDeNotas/`      |
+| **Presentación**                     | `PPT_<<NombreDePresentación>>.<<extensión>>`      | pdf, pptx      | `Clases/ClaseX<<Tema>>/Presentaciones/`   |
+| **Toma de Nota**                     | `TN_<<NombreDelEstudiante>>.<<extensión>>`         | pdf, jpeg      | `Clases/ClaseX<<Tema>>/TomaDeNotas/`      |
 | **Modalidad**                        | `Modalidad_<<yyyy>>.<<extensión>>`                | pdf            | `Modalidad/`                              |
 | **Enunciados Ejercicios**            | `Parciales_GuiaEjercicios.<<extensión>`           | pdf            | `Parciales/`                              |
-| **Resúmen**                          | `Resúmen-X_<<NombreDelEstudiante>>.<<extensión>>` | pdf, docx, txt      | `Parciales/ParcialX/Resúmenes/`           |
-| **Ejercicio Resuelto**               | `Ejercicio-X_<<NombreDelEstudiante>>.<<extensión>>`| pdf, jpeg, docx, txt | `Parciales/ParcialX/Ejercicios/`         |
+| **Resúmen**                          | `Resúmen-X_<<NombreDelEstudiante>>.<<extensión>>` | pdf, docx      | `Parciales/ParcialX/Resúmenes/`           |
+| **Ejercicio Resuelto**               | `Ejercicio-X_<<NombreDelEstudiante>>.<<extensión>>`| pdf, jpeg, docx | `Parciales/ParcialX/Ejercicios/`         |
 | **Template**                         | `Template_<<NombreTemplate>>.<<extensión>>`       | pdf, docx, xslx | `Templates/`                              |
 | **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<<extensión>>`               | pdf            | `TrabajosDeInvestigación/`                |
-| **Trabajo de Investigación**         | `TIX_<<TítuloDelTI>>.<<extensión>>`               | pdf, txt            | `TrabajosDeInvestigación/TIX/`            |
+| **Trabajo de Investigación**         | `TIX_<<TítuloDelTI>>.<<extensión>>`               | pdf            | `TrabajosDeInvestigación/TIX/`            |
 | **Enunciados Trabajos Prácticos**    | `TP_EnunciadosTPs.<<extensión>>`                  | pdf            | `TrabajosPracticós/`                      |
 | **Trabajo Práctico**                 | `TPX_<<TítuloDelTP>>.<<extensión>>`               | pdf, zip            | `TrabajosPracticós/TPX/`                   |
 
