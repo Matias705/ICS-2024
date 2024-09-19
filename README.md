@@ -86,3 +86,11 @@ Ejemplo de la nomenclatura: `PPT_SeVieneReputationTV.pdf`
 
 La línea base se establecerá tras la entrega de cada Trabajo Práctico, en la rama principal “main” del repositorio. La elección de los Trabajos Prácticos como puntos de referencia se debe a su rol como 'checkpoints' en el proceso de aprendizaje. Estos momentos marcan una oportunidad clave para consolidar los conocimientos adquiridos en la parte teórica y verificar el progreso alcanzado. Al crear una línea base después de cada TP, se asegura un registro claro del avance académico y se facilita la comparación y evaluación del desarrollo a lo largo del curso.
 
+# TP4
+
+Se Subio el Documento de Configuracion de Software a la correspndeinte carpeta
+
+
+# TP6
+
+Se Subio el proeycto, el documento de estilo de codigo utilizado y el documento de los pntos claves obtenidos en la conversacion con las profes (product owners del software); a la carpeta correspondiente
