@@ -49,7 +49,7 @@ Ejemplo de la nomenclatura: `PPT_SeVieneReputationTV.pdf`
 | **Enunciados Trabajos de Investigación**| `TI_EnunciadosTIs.<<extensión>>`               | pdf            | `TrabajosDeInvestigación/`                |
 | **Trabajo de Investigación**         | `TIX_<<TítuloDelTI>>.<<extensión>>`               | pdf, txt            | `TrabajosDeInvestigación/TIX/`            |
 | **Enunciados Trabajos Prácticos**    | `TP_EnunciadosTPs.<<extensión>>`                  | pdf            | `TrabajosPracticós/`                      |
-| **Trabajo Práctico**                 | `TPX_<<TítuloDelTP>>.<<extensión>>`               | pdf            | `TrabajosPracticós/TPX/`                   |
+| **Trabajo Práctico**                 | `TPX_<<TítuloDelTP>>.<<extensión>>`               | pdf, zip            | `TrabajosPracticós/TPX/`                   |
 
 <br>
 
@@ -88,9 +88,9 @@ La línea base se establecerá tras la entrega de cada Trabajo Práctico, en la 
 
 # TP4
 
-Se Subio el Documento de Configuracion de Software a la correspndeinte carpeta
+Se Subio el Documento de Configuracion de Software a la correspondiente carpeta
 
 
 # TP6
 
-Se Subio el proeycto, el documento de estilo de codigo utilizado y el documento de los pntos claves obtenidos en la conversacion con las profes (product owners del software); a la carpeta correspondiente
+Se Subio el proyecto, el documento de estilo de codigo utilizado y el documento de los pntos claves obtenidos en la conversacion con las profes (product owners del software); a la carpeta correspondiente
