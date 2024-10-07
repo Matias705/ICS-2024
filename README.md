@@ -94,3 +94,8 @@ Se Subio el Documento de Configuracion de Software a la correspondiente carpeta
 # TP6
 
 Se Subio el proyecto, el documento de estilo de codigo utilizado y el documento de los pntos claves obtenidos en la conversacion con las profes (product owners del software); a la carpeta correspondiente
+
+#TP3
+Se subio el Trabaro practico numero 3, con la practica de UserStory y MVP de la App para venta de ropa
+#TP7
+Se subio el Trabajo practico numero 7 de SCRAM con el zoo de plastilina
